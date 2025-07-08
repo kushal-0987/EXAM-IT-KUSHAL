@@ -35,6 +35,7 @@
             color: yellow;
             padding: 10px;
             border-radius: 10px;
+            list-style-position: inside; /* ✅ changed */
         }
 
         .table-title {
@@ -48,12 +49,12 @@
         }
 
         .table-section {
-    border: 1px solid green;
-    margin: 40px auto; 
-    padding: 15px;
-    width: 80%;
-    text-align: left;
-}
+            border: 1px solid green;
+            margin: 40px auto; 
+            padding: 15px;
+            width: 80%;
+            text-align: left;
+        }
 
         table {
             width: 100%;
@@ -83,26 +84,23 @@
 
     <div class="nav-links">
         <p>Using the following links you can navigate to another page.</p>
-       <a href="page1.html" style="color:blue;">Page 1</a>
-       <a href="page2.html" style="color:blue;">Page 2</a>
-       <a href="page3.html" style="color:blue;">Page 3</a>
-
+        <a href="page1.html" style="color:blue;">Page 1</a>
+        <a href="page2.html" style="color:blue;">Page 2</a>
+        <a href="page3.html" style="color:blue;">Page 3</a>
     </div>
 
     <div class="equations">
-        <p>Some of the quations I am familiar with are:</p>
+        <p>Some of the quations <b>I</b> am familiar with are:</p> <!-- ✅ changed -->
         <ul>
             <li><b>(a+b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></b></li>
             <li><b>CH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O</b></li>
         </ul>
     </div>
 
-    
     <div class="table-title">
         A simple table
     </div>
 
-    
     <div class="table-section">
         <table>
             <tr>
